@@ -1,0 +1,134 @@
+.nav-link{
+    font-family: Arial, sans-serif; /* Sets the font */
+  font-size: 20px; /* Adjusts font size */
+  text-transform: uppercase;
+  text-decoration: none; /* Removes underline from links */
+  color: black; /* Sets text color */
+  font-weight: bold;
+  padding: 0px 30px;
+}
+.nav-item{
+    padding: 0px  50px;
+}
+.bannerimg{
+    max-height: 400px;
+    width:70%;
+    padding: 10px 0px;
+}
+.btn2 {
+    height: 40px;
+    color: #000;
+    line-height: 12px;
+    border-radius: 50px;
+    padding: 0 25px;
+    background-color: #adb4b8;
+    margin:10px 50px;
+    font-size :14px;
+    font-weight: 600;
+}
+.card-body{
+    padding: 0PX;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  
+  .row.content {height: 450px}
+  
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+ 
+ 
+@media screen and (max-width: 480px) { 
+    .nav-item{
+        padding: 0px  5px  ;
+    }
+    .bannerimg{
+        max-height: 300px;
+        width:90%;
+        padding: 10px 0px;
+    }
+    .description{
+        display: none;
+    }
+    .btn2 {
+        margin:10px 0px;
+    }
+  }
+
+.section1 p{
+    font-size: 16px;
+
+}
+.section1 {
+    padding-bottom: 60px;
+}
+
+.fixed{
+    position: fixed;
+}
+.section2{
+    
+}
+.section2 p{
+    font-size: 1rem;
+}
+.card{
+    border:0px;
+    padding-top: 20px;
+}
+.cardimg{
+    width:80%
+}
+.cardtitle{
+    font-size: 18px;
+    text-align: start;
+    font-weight: 800;
+}
+.card-text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btndiv{
+    padding:20px 50px;
+    text-align: start;
+}
+.formlabel{
+    font-size:18px;
+    font-weight:800;
+}
+.form-group input{
+    border: 0px;
+    background-color: #d3d3d3;
+}
+.formbtm{
+    text-align: center;
+    background-color: #adb4b8;
+    border: 0px;
+    color:black;
+    padding: 0px 60px;
+    font-size:20px;
+    font-weight:800;
+}
+.section3{
+    padding: 40px 20px;
+}
+.footer{
+    background-color: #fff;
+}
+.footer i{
+    color: #000;
+    font-size: 30px;
+    padding:0px 20px
+}
+.footer p{
+    color: #000;
+    font-size: 16px;
+    font-weight:700;
+}
